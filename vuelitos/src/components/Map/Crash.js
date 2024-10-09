@@ -1,4 +1,3 @@
-import React, { useState, useEffect } from "react";
 import { Marker } from "react-leaflet";
 import { CrashLocation } from "./CrashLocation";
 
