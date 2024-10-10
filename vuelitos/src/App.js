@@ -185,7 +185,7 @@ function App() {
       setMessages(prevMessages => [...prevMessages, `${timestamp} - Tú: ${msg}`]);
 
       const messageEvent = {
-        type: 'message',
+        type: 'chat',
         content: msg
       };
       sendMessage(JSON.stringify(messageEvent));
